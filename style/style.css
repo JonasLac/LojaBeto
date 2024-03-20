@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ubuntu;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+header {
+    background-color: #c5c6c8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    padding: 68px;
+}
+
+#content-box-header {
+    border-right: 0.1px solid gray;
+    border-left: 0.1px solid gray;
+}
+
+#logo {
+    height: 150px;
+}
+
+#carrosel {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+#ban-carrosel {
+    width: auto;
+    height: 480px;
+    border-radius: 20px;
+}
+
+main {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+aside {
+    background-color: #df1c24;
+    height: 600px;
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    
+}
+
+aside h2 {
+    margin-top: 10px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+#asider-content a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+#content-produtos {
+    background-color: #c5c6c8;
+    height: 850px;
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    border-radius: 10px;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.produto {
+    background-color: #fff;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+    height: 350px;
+    width: 300px;
+}
+
+.produto img {
+    height: 250px;
+    border-radius: 20px;
+}
+
+.content-diversos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #df1c24;
+    height: 100px;
+}
+
+.content-diversos h2 {
+    font-size: 25px;
+    color: #fff;
+}
+
+#content-last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    height: 350px;
+    width: auto;
+    background-color: #c5c6c8;
+
+}
+
+.last-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 330px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.last-produto img {
+    height: 250px;
+    width: auto;
+}
+
+.content-lorem {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.content-lorem img {
+    height: 100px;
+    width: 100px;
+}
+
+.lorem {
+    background-color: #c5c6c8;
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+footer {
+    background-color: #c5c6c8;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#Toyama {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-toyama {
+    height: 100px;
+    width: auto;
+    border-radius: 20px;
+}
+
+
+.toyama-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#produto-toyama {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px;
+    gap: 50px;
+    background-color: red;
+    height: 800px;
+    width: 1100px;
+
+}
+
+.produto-marca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    margin: 10px;
+
+}
+
+#produto-mar {
+    height: 300px;
+}
+
